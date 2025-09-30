@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Add New Book</title>
+    <link rel="stylesheet" type="text/css" href="style for project.css">
+    </head>
+    <body>
+      <style>
+      html, body {
+      display: flex;
+      justify-content: center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      color: #df9788;
+      }
+
+      input[type=text] {
+      width: 100%;
+      padding: 20px 8px;
+      margin: 20px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      }
+      button {
+      background-color: #ebdad0;
+      color: #000000;
+      padding: 20px 0;
+      margin: 10px 0;
+      border: 1px solid #ebdad0;
+      border-radius: 20px;
+      cursor: grabbing;
+      width: 10%;
+      justify-content: center;
+      font-size: 15px;
+      font-family: verdana;
+      }
+      h1 {
+      text-align:center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #514543;
+      font-size:40px;
+      }
+      button:hover {
+      opacity: 0.7;
+      }
+      .formcontainer {
+      text-align: center;
+      margin: 24px 50px 12px;
+      }
+      .container {
+      padding: 16px 0;
+      text-align:left;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="admin.html"><img src="images/back.png" style="width:2em; height:2em;position:absolute"></a>
+    
+    <form action="/action_page.php">
+      <h1>Add New Book</h1>
+      <div class="formcontainer">
+      
+      <div class="container">
+        <label for="bookid">Book ID</label>
+        <input type="text" placeholder="Enter Unique Book ID" name="bookid" required>
+        
+        <label for="title">Title</label>
+        <input type="text" placeholder="Enter Book Title" name="title" required>
+        
+        <label for="stock">Quantity</label>
+        <input type="text" placeholder="Enter Book Stock Availability" name="stock" required>
+        
+        <label for="price">Price</label>
+        <input type="text" placeholder="Enter Book Price in SAR" name="price" required>
+        
+        <label for="title">Picture</label>
+        <input type="file" id="image-upload" accept="image/">
+      </div>
+      <button type="submit">Add</button>
+    </form>
+  </body>
+</html>

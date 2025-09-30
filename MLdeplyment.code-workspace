@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "MLdeplyment",
+			"path": "../../../../Users/dimal/OneDrive/Desktop/MLdeplyment"
+		},
+		{
+			"name": "lab4",
+			"path": "../../../../Users/dimal/OneDrive/Desktop/uni stuff/level 11/WBS lab/lab4"
+		},
+		{
+			"name": "lab3",
+			"path": "../../../../Users/dimal/OneDrive/Desktop/uni stuff/level 11/WBS lab/lab3"
+		},
+		{
+			"name": "WBS lab",
+			"path": "../../../../Users/dimal/OneDrive/Desktop/uni stuff/level 11/WBS lab"
+		},
+		{
+			"name": "lab6",
+			"path": "../../lab6"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../eCommerceSite-PHP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project MS2"
+	}
+}

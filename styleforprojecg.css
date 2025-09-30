@@ -1,0 +1,133 @@
+/*CSS external sheet for the proj-->
+<!--colors
+black: #231f20
+dark orange: #d57f4c 
+lighter orange: #e0a07a
+pinky orange: #df9788 
+darker beige: #ebdad0
+lighter beige: #efe4de
+last color: #fdf9f6 
+logo bg: #f7f7f7
+logo outline: #514543 
+line between logo and name: #96742e
+header og: #ebdad0
+*/
+body {
+    background-color: #fdf9f6 ;
+}
+.header {  
+  position: relative top;  
+  margin: 0;  
+  height: 5em;  
+  display: flex;  
+  align-items: center; 
+  background-color: #efe4de;
+  width:100%;
+  } 
+  header ul {
+    margin-left: 0.5em;
+  } 
+  header * {  
+  display: inline;  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  header li a:hover {
+    background-color: #ebdad0;
+    color:#6c615f;
+    transition: .5s;
+  }  
+  header li a {  
+  color: #514543; 
+  text-decoration: none;  
+  font-size: larger;
+  padding-top:1.5em; 
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  padding-right: 1.5em; 
+  margin-left: 0.7em;
+  }  
+footer {
+    background-color: #fdf9f6 ;
+}
+h1,h2,h3,h4,h5,h6, .bkname, table {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #514543;
+}
+.logo {
+    top:0px;
+    left: 0px;
+    height: 55px;
+    width: 140px;
+    float:left;
+}
+.btn {
+    background-color: #efe4de;
+    color: #514543;
+    padding: 8px 10px;
+    width:7em;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .btn:hover {
+    background-color: #ebdad0;
+    color: #514543;
+    text-decoration: none;
+    transition: .5s;
+  }
+  .product {
+    color: #514543; 
+  }
+  p, button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a18f81;
+    /* or font can be diff */
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .copy {
+    font-size: small;
+    margin-top: 2em;
+    text-align: center;
+  }
+  .card {
+    width: 17rem;
+  }
+  .column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	  height: 300px; 
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+  .bkinfoleft {
+    float:left; 
+    width:70%; 
+    height: 24em; 
+    margin-top: 2em; 
+    margin-left:2em;
+    background-color:white;
+  }
+  .bkinforight {
+    float:left; 
+    width:20%; 
+    height: 24em; 
+    margin-top: 2em; 
+    margin-left:2em;
+    background-color:white;
+  }
+  input[type=number] { 
+    width:4em;
+}
+h3 .past {
+  margin-top:.5em; margin-bottom:0.5em; 
+  color:#e0e0d1;
+}

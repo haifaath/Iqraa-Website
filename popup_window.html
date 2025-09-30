@@ -1,0 +1,25 @@
+<html>
+<head>
+    <style>
+      .button {
+        background-color: #fdf9f6 ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #514543;
+        border:4px double #cccccc ;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+
+      }   
+    </style>
+    <script type="text/javascript">
+        //open contact page as a pop up window 
+        function openWindow() {
+            myWindow = window.open('contact.html', 'window', 'width=400,height=300');
+        }
+    </script>
+</head>
+<body>
+    <input class="button" type="button" value="Help" onclick="openWindow()" />
+</body>
+</html>
